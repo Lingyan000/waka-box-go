@@ -20,7 +20,7 @@ func main() {
 	wakaAPIKey := os.Getenv("WAKATIME_API_KEY")
 	ghToken := os.Getenv("GH_TOKEN")
 	ghUsername := os.Getenv("GH_USER")
-	gistID := os.Getenv("GIST_ID")
+	gistID := "0f1e55bdf44890ae30c721297c2321ca"
 	updateOption := os.Getenv("UPDATE_OPTION") // options for update: GIST,MARKDOWN,GIST_AND_MARKDOWN
 	markdownFile := os.Getenv("MARKDOWN_FILE") // the markdown filename
 
